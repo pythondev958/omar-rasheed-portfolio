@@ -3,19 +3,58 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
+
 header {
     background-color: #333;
     color: white;
     padding: 1em;
     text-align: center;
 }
+
 section {
     margin: 2em;
+    background: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 h2 {
     color: #333;
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
 }
+
 a {
     color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1em;
+}
+
+ul ul {
+    margin-left: 1em;
+}
+
+strong {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin: 0.5em 0;
 }
